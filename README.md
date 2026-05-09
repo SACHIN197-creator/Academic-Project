@@ -44,11 +44,12 @@ This project helped in understanding:
   ## Screenshot
 
 ![home page](dashboard.png)
-![faculty details](faculty details.png)
-![faculty details](faculty details2.png)
-![Student details](student details.png)
+![faculty details](Facultydetails.png)
+![faculty details](facultydetails2.png)
+![Student details](studentdetails.png)
 ![Event details](events.png)
 ![Enquiry Form](enquiryform.png)
+![Show enquiry](showdata.png)
 
 ## 👨‍💻 Author
 
@@ -69,5 +70,6 @@ Sachin Kumar
 - Deploy project online
 - Add advanced security features
 - Add admin analytics dashboard
+
 
 
