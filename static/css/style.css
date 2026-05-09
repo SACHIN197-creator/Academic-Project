@@ -1,0 +1,210 @@
+.jumbotron h1{
+    text-align: center;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: dashed;
+    text-decoration-color: red;
+    font-weight: bold;
+
+}
+body{
+    background-image: url("../images/bciit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbotron{
+    background-color:grey;
+   border:20px solid gold ;
+}
+.jumbotron .btn-primary1{
+    margin-top: 50px;
+    margin-left: 140px;
+
+    background: linear-gradient(to right, orange, #ff9800);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+.jumbotron .btn-primary1:hover{
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    color: #fff ;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+
+.jumbotron .btn-primary2{
+    margin-top: 50px;
+
+    background: linear-gradient(to right, #ffeb3b, #fbc02d);
+    color: #222;
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+.jumbotron .btn-primary2:hover{
+    background: linear-gradient(to right, #fbc02d, #f57f17);
+    color: #111 ;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+.jumbotron .btn-primary3{
+    margin-top: 50px;
+
+    background: linear-gradient(to right, greenyellow, #7CFC00);
+    color: #444;
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+.jumbotron .btn-primary3:hover{
+    background: linear-gradient(to right, #7CFC00, #32CD32);
+    color: #222 !important;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+
+.jumbotron .btn-primary4{
+    margin-top: 50px;
+
+    background: linear-gradient(to right, aqua, #00bcd4);
+    color: #444;
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+.jumbotron .btn-primary4:hover{
+    background: linear-gradient(to right, #00bcd4, #0097a7);
+    color: #fff !important;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+#AB{
+    text-align: center;
+}
+
+.card faculty-card{
+    color: blueviolet;
+}
+.btn-primary2{
+    background-color: aqua;
+}
+#title{
+    text-align: center;
+    color: rgb(255, 81, 0);
+
+    font-size: 42px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #ff5722;
+    text-underline-offset: 8px;
+
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.18);
+
+    padding: 12px;
+    margin-bottom: 25px;
+
+    transition: all 0.3s ease;
+}
+
+#title:hover{
+    color: #0d6efd;
+    transform: scale(1.03);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.28);
+}
+
+.thumbnail{
+    background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+    padding: 18px;
+
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.18);
+}
+h4{
+    font-weight: bold;
+
+}
+
+.btn-primary4{
+    margin-top: 50px;
+
+    background: linear-gradient(to right, #ff4d4d, #e53935);
+    color: white;
+    padding: 12px 24px;
+
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+
+
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    display: inline-block;
+    cursor: pointer;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,0.25);
+
+    transition: all 0.3s ease;
+}
+
+.btn-primary4:hover{
+    background: linear-gradient(to right, #e53935, #c62828);
+    color: #fff !important;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+

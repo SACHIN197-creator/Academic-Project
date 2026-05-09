@@ -1,0 +1,58 @@
+{% load static %}
+
+<html>
+<head>
+    <title>College Students</title>
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/student.css' %}">
+</head>
+
+<body>
+
+<h1 class="heading">Student Details </h1>
+
+<div class="container">
+
+    <div class="card">
+      <img src="{% static 'images/sachin1.jpeg' %}"alt="Student">
+        <h2>Sachin Kumar</h2>
+        <p><b>Course:</b> BCA</p>
+        <p><b>Year:</b> 2nd Year</p>
+        <p><b>Email:</b> kumar@gmail.com</p>
+        <p><b>Skills:</b> Python, HTML, CSS,Django</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/Abhinav.jpg' %}" alt="Student">
+        <h2>Abhinav Dubey</h2>
+        <p><b>Course:</b> BCA</p>
+        <p><b>Year:</b> 2nd Year</p>
+        <p><b>Email:</b> abhinav@gmail.com</p>
+        <p><b>Skills:</b> Java, SQL, C</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/pavitra.jpg' %}" alt="Student">
+        <h2>Pavitra Singla</h2>
+        <p><b>Course:</b> BCA</p>
+        <p><b>Year:</b> 2nd Year</p>
+        <p><b>Email:</b> pavitra@gmail.com</p>
+        <p><b>Skills:</b> C++, DSA, PHP</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/yash.jpg' %}" alt="Student">
+        <h2>Yash Katheria</h2>
+        <p><b>Course:</b> BCA</p>
+        <p><b>Year:</b> 2nd Year</p>
+        <p><b>Email:</b> rahul@gmail.com</p>
+        <p><b>Skills:</b> Python, OS, Javascript</p>
+    </div>
+
+</div><br>
+<br>
+<a href="{% url 'home' %}" class="btn btn-primary7">Back to home</a>
+
+</body>
+</html>

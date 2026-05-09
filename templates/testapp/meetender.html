@@ -1,0 +1,45 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Meetender Sir</title>
+
+
+    <link rel="stylesheet" href="{% static 'css/faculty.css' %}">
+</head>
+
+<body>
+
+<div class="container">
+
+
+    <div class="profile">
+        <img src="{% static "images/meetendersir.jpg" %}" alt="Profile Image">
+
+        <h2>{{ meetender.name }}</h2>
+        <p class="designation">{{ meetender.designation }}</p>
+    </div>
+
+
+    <div class="details">
+
+        <div class="row"><span>Subject</span><b>:  {{meetender.subject }}</b></div>
+        <div class="row"><span>Department</span><b>:  {{meetender.department }}</b></div>
+        <div class="row"><span>Qualification</span><b>:  {{meetender.qualification }}</b></div>
+        <div class="row"><span>Email</span><b>:  {{ meetender.email }}</b></div>
+        <div class="row"><span>Phone</span><b>:  {{meetender.phone }}</b></div>
+        <div class="row"><span>Address</span><b>:  {{ meetender.address }}</b></div>
+        <div class="row"><span>Specialization</span><b>:  {{ meetender.specialization }}</b></div>
+        <div class="row"><span>Field of Interest</span><b>:  {{ meetender.interest }}</b></div>
+        <div class="row"><span>Experience</span><b>:  {{ meetender.experience }}</b></div>
+
+    </div>
+
+</div>
+<br>
+<br>
+<a href="{% url 'faculty' %}" class="btn btn-primary5">Back to Page</a>&nbsp;&nbsp;
+<a href="{% url 'home' %}" class="btn btn-primary4">Back to home</a>
+
+</body>
+</html>

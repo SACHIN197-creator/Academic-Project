@@ -1,0 +1,58 @@
+{% load static %}
+
+<html>
+<head>
+    <title>College Events</title>
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/events.css' %}">
+</head>
+
+<body>
+
+<h1 class="heading">Upcoming College Events</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="{% static 'images/innov.jpg' %}" alt="Innovation Event">
+        <h2>Innovation Fest 2026</h2>
+        <p><b>Date:</b> 15 May 2026</p>
+        <p><b>Venue:</b> Main Auditorium</p>
+        <p><b>Time:</b> 10:00 AM</p>
+        <p>Students will present creative projects and startup ideas.</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/sports.jpg' %}" alt="Sports Event">
+        <h2>Annual Sports Meet</h2>
+        <p><b>Date:</b> 22 May 2026</p>
+        <p><b>Venue:</b> College Ground</p>
+        <p><b>Time:</b> 9:00 AM</p>
+        <p>Track races, football, cricket and team games.</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/semi.jpg' %}" alt="Seminar">
+        <h2>Tech Seminar</h2>
+        <p><b>Date:</b> 28 May 2026</p>
+        <p><b>Venue:</b> Seminar Hall</p>
+        <p><b>Time:</b> 11:00 AM</p>
+        <p>Experts will discuss AI, Cybersecurity and future tech trends.</p>
+    </div>
+
+    <div class="card">
+        <img src="{% static 'images/cultural.jpg' %}" alt="Cultural Event">
+        <h2>Cultural</h2>
+        <p><b>Date:</b> 30 May 2026</p>
+        <p><b>Venue:</b>Audotorium</p>
+        <p><b>Time:</b> 10:00 AM</p>
+        <p>Dance, music, drama and student performances.</p>
+    </div>
+
+</div><br>
+<br>
+<a href="{% url 'home' %}" class="btn btn-primary6">Back to home</a>
+
+</body>
+</html>           

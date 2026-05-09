@@ -1,0 +1,43 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Sanjna Mam</title>
+
+   
+    <link rel="stylesheet" href="{% static 'css/faculty.css' %}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="profile">
+        <img src="{% static 'images/sanjnamam.jpg' %}" alt="Profile Image">
+
+        <h2>{{ sanjna.name }}</h2>
+        <p class="designation">{{ sanjna.designation }}</p>
+    </div>
+
+    
+    <div class="details">
+
+        <div class="row"><span>Subject</span><b>: {{ sanjna.subject }}</b></div>
+        <div class="row"><span>Department</span><b>: {{ sanjna.department }}</b></div>
+        <div class="row"><span>Qualification</span><b>: {{ sanjna.qualification }}</b></div>
+        <div class="row"><span>Email</span><b>: {{ sanjna.email }}</b></div>
+        <div class="row"><span>Phone</span><b>: {{ sanjna.phone }}</b></div>
+        <div class="row"><span>Address</span><b>: {{ sanjna.address }}</b></div>
+        <div class="row"><span>Specialization</span><b>: {{ sanjna.specialization }}</b></div>
+        <div class="row"><span>Field of Interest</span><b>: {{ sanjna.interest }}</b></div>
+        <div class="row"><span>Experience</span><b>: {{ sanjna.experience }}</b></div>
+
+    </div>
+
+</div>
+<br>
+<br>
+<a href="{% url 'faculty' %}" class="btn btn-primary5">Back to Page</a>&nbsp;&nbsp;
+<a href="{% url 'home' %}" class="btn btn-primary4">Back to home</a>
+</body>
+</html>

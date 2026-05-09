@@ -1,0 +1,42 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Alok Sir</title>
+
+    
+    <link rel="stylesheet" href="{% static 'css/faculty.css' %}">
+</head>
+
+<body>
+
+<div class="container">
+
+   
+    <div class="profile">
+        <img src="{% static 'images/aloksir.jpg' %}" alt="Profile Image">
+
+        <h2>{{ alok.name }}</h2>
+        <p class="designation">{{ alok.designation }}</p>
+    </div>
+
+    <div class="details">
+
+        <div class="row"><span>Subject</span><b>: {{ alok.subject }}</b></div>
+        <div class="row"><span>Department</span><b>: {{ alok.department }}</b></div>
+        <div class="row"><span>Qualification</span><b>: {{ alok.qualification }}</b></div>
+        <div class="row"><span>Email</span><b>: {{ alok.email }}</b></div>
+        <div class="row"><span>Phone</span><b>: {{ alok.phone }}</b></div>
+        <div class="row"><span>Address</span><b>: {{ alok.address }}</b></div>
+        <div class="row"><span>Specialization</span><b>: {{ alok.specialization }}</b></div>
+        <div class="row"><span>Field of Interest</span><b>: {{ alok.interest }}</b></div>
+        <div class="row"><span>Experience</span><b>: {{ alok.experience }}</b></div>
+
+    </div>
+
+</div><br><br>
+<a href="{% url 'faculty' %}" class="btn btn-primary5">Back to Page</a>&nbsp;&nbsp;
+<a href="{% url 'home' %}" class="btn btn-primary4">Back to home</a>
+
+</body>
+</html>
