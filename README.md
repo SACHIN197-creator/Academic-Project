@@ -46,6 +46,7 @@ This project helped in understanding:
 ![home page](dashboard.png)
 ![faculty details](Facultydetails.png)
 ![faculty details](facultydetails2.png)
+![faculty details](personaldetails.png)
 ![Student details](studentdetails.png)
 ![Event details](events.png)
 ![Enquiry Form](enquiryform.png)
