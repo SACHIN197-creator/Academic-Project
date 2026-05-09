@@ -41,6 +41,14 @@ This project helped in understanding:
 - GitHub Project Management
 
 ---
+  ## Screenshot
+
+![home page](dashboard.png)
+![faculty details](faculty details.png)
+![faculty details](faculty details2.png)
+![Student details](student details.png)
+![Event details](events.png)
+![Enquiry Form](enquiryform.png)
 
 ## 👨‍💻 Author
 
