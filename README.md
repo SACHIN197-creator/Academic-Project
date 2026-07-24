@@ -1,5 +1,6 @@
 ## 🌐 [Live Demo 🔗](https://academic-project-gp7y.onrender.com)
 
+
 # Academic Project
 
 A full-stack academic web application developed using Django, Python, HTML, CSS and Bootstrap. This project demonstrates practical implementation of frontend and backend web development concepts with responsive UI and database integration.
