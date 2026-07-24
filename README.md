@@ -1,4 +1,4 @@
-## 🌐 (Live Demo 🔗)[https://academic-project-gp7y.onrender.com]
+## 🌐 [Live Demo 🔗](https://academic-project-gp7y.onrender.com)
 
 # Academic Project
 
